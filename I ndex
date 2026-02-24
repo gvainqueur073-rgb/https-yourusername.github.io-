@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Professional Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h1>Welcome!</h1>
+        <p>Hello! I'm [Your Name], a motivated and detail-oriented professional passionate about growth, innovation, and continuous learning.</p>
+        <p>This website highlights my skills, experience, and interests.</p>
+    </div>
+</div>
+
+<footer>
+    © 2026 [Your Name]
+</footer>
+
+</body>
+</html>
