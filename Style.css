@@ -106,3 +106,9 @@ footer {
     color: #64748b;
     font-size: 14px;
 }
+.hero{
+background-image:url("images/public-health-data.jpg");
+background-size:cover;
+padding:120px;
+color:white;
+}
