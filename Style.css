@@ -107,8 +107,15 @@ footer {
     font-size: 14px;
 }
 .hero{
-background-image:url("images/public-health-data.jpg");
+background:url("images/health-data.jpg");
 background-size:cover;
-padding:120px;
+background-position:center;
+padding:120px 20px;
+text-align:center;
 color:white;
+}
+
+.hero h2{
+font-size:40px;
+margin-bottom:20px;
 }
