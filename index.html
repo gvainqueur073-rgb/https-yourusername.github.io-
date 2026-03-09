@@ -1,113 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Gaina Vainqueur | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            padding: 20px;
-            font-weight: 500;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: #ffd369;
-        }
-
-        .hero {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin-bottom: 30px;
-        }
-
-        .btn {
-            background: #ffd369;
-            color: #333;
-            padding: 12px 25px;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            background: white;
-            transform: scale(1.05);
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            font-size: 0.9rem;
-            opacity: 0.8;
-        }
-    </style>
+<title>Gaina Vainqueur | Public Health Portfolio</title>
+<link rel="stylesheet" href="Style.css">
 </head>
+
 <body>
 
+<header>
+<h1>Gaina Vainqueur</h1>
+
 <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="resume.html">Resume</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="resume.html">Resume</a>
+<a href="projects.html">Projects</a>
+<a href="experience.html">Experience</a>
+<a href="contact.html">Contact</a>
 </nav>
 
-<div class="hero">
-    <h1>Hi, I'm Gaina 👋</h1>
-    <p>
-        A creative and detail-oriented professional passionate about innovation, 
-        continuous learning, and building impactful digital experiences.
-    </p>
-    <a href="projects.html" class="btn">View My Work</a>
+</header>
+
+<section style="text-align:center">
+
+<img src="images/profile.jpg" class="profile-pic">
+
+<h2>Public Health & Data Analytics Professional</h2>
+
+<p>
+Dedicated to improving community health outcomes through
+data-driven public health research, disease surveillance,
+and health analytics.
+</p>
+
+<button onclick="location.href='projects.html'">
+View My Projects
+</button>
+
+</section>
+
+
+<section>
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+I am a public health professional interested in improving
+population health through data analysis, research, and
+evidence-based strategies.
+
+My interests include disease surveillance, epidemiology,
+and social determinants of health.
+</p>
+
 </div>
 
-<footer>
-    © 2026 Gaina Vainqueur
+</section>
+
+
+<section>
+
+<h2>Skills</h2>
+
+<div class="card">
+
+<ul>
+
+<li>Public Health Research</li>
+<li>Epidemiology</li>
+<li>Data Analysis</li>
+<li>Excel & Data Visualization</li>
+<li>Disease Surveillance</li>
+<li>Healthcare Data Analytics</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Featured Projects</h2>
+
+<div class="card">
+
+<h3>Public Health Data Dashboard</h3>
+
+<p>
+Developed a dashboard analyzing healthcare data including
+infection rates, hospital stays, and patient outcomes.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Social Determinants of Health Study</h3>
+
+<p>
+Analyzed relationships between housing, food access,
+and health outcomes using national public health datasets.
+</p>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Career Goals</h2>
+
+<div class="card">
+
+<p>
+I am seeking opportunities in public health research,
+health data analytics, and community health initiatives
+where I can contribute to improving health outcomes.
+</p>
+
+</div>
+
+</section>
+
+
+<footer style="text-align:center;padding:30px;background:#0F4C81;color:white">
+
+<p>© 2026 Gaina Vainqueur</p>
+
 </footer>
 
 </body>
+
 </html>
